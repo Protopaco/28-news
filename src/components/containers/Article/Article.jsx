@@ -12,7 +12,6 @@ const Article = ({ author, title, description }) => {
                 :
                 <></>
             }
-
             <p>{`title: ${title}`}</p>
             <p>{`description: ${description}`}</p>
         </div>
@@ -21,9 +20,9 @@ const Article = ({ author, title, description }) => {
 }
 
 Article.propTypes = {
-    author: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired
+    author: PropTypes.string,
+    title: PropTypes.string,
+    description: PropTypes.string
 }
 
 export default Article;

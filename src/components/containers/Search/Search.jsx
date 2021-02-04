@@ -9,12 +9,14 @@ const Search = ({ OnSearchSubmit }) => {
     }
 
     return (
-        <form>
+        <form >
             <input
+                data-testid='searchBar'
                 onChange={(e) => { setSearchInput(e.target.value) }}
             />
             <button
-                onClick={(e) => handleSubmit(e)}> Submit </button>
+                onClick={(e) => handleSubmit(e)}
+                data-testid='submitButton'> Submit </button>
         </form >
     )
 }

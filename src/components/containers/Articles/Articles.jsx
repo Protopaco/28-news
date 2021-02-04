@@ -2,8 +2,6 @@ import React from "react"
 import Article from "../Article/Article.jsx"
 
 
-
-
 const Articles = ({ articleList }) => {
 
     return (

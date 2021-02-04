@@ -22,7 +22,7 @@ const NewsSearch = () => {
 
 
     return (
-        <div>
+        <div data-testid='display'>
             <Search
                 OnSearchSubmit={handleSearchSubmit}
             />
